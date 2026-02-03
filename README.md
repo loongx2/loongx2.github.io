@@ -19,7 +19,8 @@ Then visit http://localhost:8080
 3. In Settings → Pages, set **Custom domain** to `heanloong.github.io` (the domain you own). GitHub will create/update the `CNAME` file automatically (already present).
 4. Configure DNS for the apex domain:
    - Preferred: use a CNAME/ALIAS/ANAME (flattened) record with **Name** `heanloong.github.io` pointing to **Target** `loongx2.github.io`.
-   - If your DNS provider cannot flatten CNAMEs at the apex, add A records for `heanloong.github.io` to the GitHub Pages IPs listed in the GitHub Pages docs.
+   - If your DNS provider cannot flatten CNAMEs at the apex, add **A records** for `heanloong.github.io` to the GitHub Pages IPs: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`.
+   - Optional: if you want `www.heanloong.github.io`, add a CNAME `www` → `loongx2.github.io`.
 5. Your site will be available at https://heanloong.github.io once DNS propagates.
 
 This repo includes:
