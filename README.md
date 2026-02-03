@@ -17,7 +17,9 @@ Then visit http://localhost:8080
 1. Commit and push to the `main` branch of the `heanloong.github.io` repository.
 2. In your repo settings → Pages, ensure the source is set to `Deploy from a branch` → `main` → `/ (root)`.
 3. In Settings → Pages, set **Custom domain** to `heanloong.github.io`. GitHub will create/update the `CNAME` file automatically (already present).
-4. Configure DNS: add a CNAME record with **Name** `heanloong.github.io` pointing to **Target** `heanloong.github.io` (GitHub handles the apex via ALIAS/ANAME), or use your DNS provider’s “CNAME/ALIAS/ANAME” for the apex as documented by GitHub.
+4. Configure DNS for the apex domain:
+   - If your DNS supports ALIAS/ANAME at the apex, point `heanloong.github.io` to `heanloong.github.io` (which resolves to GitHub Pages).  
+   - Otherwise, add A records for `heanloong.github.io` to GitHub Pages IPs per the GitHub Pages docs.
 5. Your site will be available at https://heanloong.github.io once DNS propagates.
 
 This repo includes:
