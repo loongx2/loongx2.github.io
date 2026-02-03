@@ -14,9 +14,9 @@ Then visit http://localhost:8080
 
 ## Deploy on GitHub Pages
 
-1. Commit and push to the `main` branch of the `heanloong.github.io` repository.
-2. In your repo settings → Pages, ensure the source is set to `Deploy from a branch` → `main` → `/ (root)`.
-3. Your site will be available at https://heanloong.github.io
+1. Commit and push to the `main` branch of this repository.
+2. In repo **Settings → Pages**, set the source to `Deploy from a branch` → `main` → `/ (root)`.
+3. (Optional) If you want to keep a custom domain, set it in **Custom domain** and ensure DNS points there. Otherwise, GitHub Pages will serve the default domain: https://loongx2.github.io
 
 This repo includes:
 - `index.html` — the homepage
