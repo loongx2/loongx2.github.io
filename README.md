@@ -16,7 +16,9 @@ Then visit http://localhost:8080
 
 1. Commit and push to the `main` branch of the `heanloong.github.io` repository.
 2. In your repo settings → Pages, ensure the source is set to `Deploy from a branch` → `main` → `/ (root)`.
-3. Your site will be available at https://heanloong.github.io
+3. In Settings → Pages, set **Custom domain** to `heanloong.github.io`. GitHub will create/update the `CNAME` file automatically (already present).
+4. Configure DNS: add a CNAME record `heanloong.github.io` → `loongx2.github.io`.
+5. Your site will be available at https://heanloong.github.io once DNS propagates.
 
 This repo includes:
 - `index.html` — the homepage
