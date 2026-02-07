@@ -1,0 +1,22 @@
+{
+  "cv": [
+    {
+      "page": 1,
+      "text": "Contact Hean Loong Ong\nloongx2@gmail.com\nCombining years of Embedded grit with the frontier of A.I\nwww.linkedin.com/in/hean-loong-\nBayan Lepas, Penang, Malaysia\nong-94b083a6 (LinkedIn)\nSummary\nTop Skills\nA Software Engineer with a penchant for venturing into the unknown\nC++\nPython (Programming Language) https://loongx2.github.io/heanloong.github.io/\nC (Programming Language)\nCertifications Experience\nIntroduction to TensorFlow for\nArtificial Intelligence, Machine Lattice Semiconductor\nLearning, and Deep Learning Customer Applications Software Engineer\nSequences, Time Series and November 2023 - Present (2 years 3 months)\nPrediction Penang, Malaysia\nConvolutional Neural Networks in\nDebug and solve issues related to Industrial Ethernet like EtherCAT and\nTensorFlow\nPROFINET\nAI Workshop: Build a Neural\nNetwork with PyTorch Lightning Solve performance bottlenecks on small FPGA devices for Industrial\nHands-On PyTorch Machine Applications in FreeRTOS\nLearning\nDeveloped Industrial Ethernet application on FreeRTOS stack based on soft IP\nFPGA\nPublications\nEnabled Zephyr support for soft RISC-V core on FPGA\nRouting with a density-based\nprobabilistic algorithm for mobile ad-\nhoc networks Infoblox\nStaff Software Engineer\nNode Density Effects on Reactive\nRouting Protocols for Mobile Ad Hoc July 2020 - November 2023 (3 years 5 months)\nWireless Networks Malaysia\nDebugging DNS/Ethernet issues on Linux. Including OS performance\nbottlenecks and Ethernet packet corruption\nDeveloped cloud based DNS applications to inspect malicious network packets\nDeveloped backend security service running HTTP/2.0\nDeveloped high-speed network packet processing\nIntel Corporation\nSenior Embedded Software Engineer\nSeptember 2016 - June 2020 (3 years 10 months)\nPenang, Malaysia\nDebugging Linux OS issues related to FPGA drivers (esp. Ethernet and\nDisplay Port)\nPage 1 of 3"
+    },
+    {
+      "page": 2,
+      "text": "Debug and solve Yocto build frameworks issues including working on\npackages with security flaws\nMaintains Nightly Linux kernel and Intel FPGA Yocto builds and version\nupgrades\nMaintainer of Intel FPGA Yocto SDL packages\nMaintains internal Intel FPGA ARM SoC drivers for Yocto\n1. Intel FPGA ARM SoC Frame Buffer\nhttps://www.phoronix.com/news/Intel-DRM-FPGA-Arria-10\n2. Intel FPGA ARM SoC SDK Reference Drivers (GPIO, I2C, SPI)\n3. Intel FPGA ARM SoC Ethernet drivers\nDevelop Regression test suites for Intel FPGA ARM SoC Yocto\nInfoblox\nSenior Software Engineer\nMarch 2015 - July 2016 (1 year 5 months)\nDebug and solve embedded software issues related to Linux based PCIe\nNetwork Accelerator\nDeveloping DNS DDos mitigation applications on Linux platforms (virtual and\nphysical machines).\nCoding environment is based on C and Python.\nAdopted Agile development approach.\nMotorola Solutions\nSenior Software Engineer\nOctober 2008 - February 2015 (6 years 5 months)\nPenang, Malaysia\nDevelop digital professional radio software. Mainly concentrating on power\nmanagement and accessory interface issue.\nCoding environment is in C and C++\nWorked under development Agile environment\nUniversiti Sains Malaysia\nResearcher\nMay 2005 - April 2008 (3 years)\nPenang, Malaysia\nAdministering IPv6 networks for MYREN group.\nWork on setting up IPv6 network emulators for training.\nPublish research Wireless Networks.\nPage 2 of 3"
+    },
+    {
+      "page": 3,
+      "text": "Education\nUniversiti Sains Malaysia\nMasters in Computer Science, Computer Networks · (2005 - 2008)\nUniversiti Tunku Abdul Rahman\nComputer Science Bachelor, Computer Science · (2003 - 2005)\nSXI\n· (1988 - 2000)\nPage 3 of 3"
+    }
+  ],
+  "presentation": [
+    {
+      "page": 1,
+      "text": "Career Journey in Embeded Software Engineering\nOng Hean Loong"
+    }
+  ]
+}

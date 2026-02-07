@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Hean Loong Ong — Staff Software Engineer with 20 years in embedded systems, high-speed networking, and FPGA platforms." />
-    <title>Hean Loong • Personal Site</title>
+    <meta name="description" content="Hean Loong Ong — Staff Software Engineer combining years of Embedded grit with the frontier of A.I. Expertise in embedded systems, high-speed networking, and FPGA platforms." />
+    <title>Hean Loong Ong • Software Engineer</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
@@ -20,8 +23,10 @@
         </button>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="assets/HeanLoong-Resume.pdf" target="_blank" rel="noopener">Resume</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="assets/OngHeanLoong-CV.pdf" target="_blank" rel="noopener">Resume</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -32,10 +37,11 @@
         <div class="container grid-two">
           <div>
             <h1 class="title">Hi, I'm <span class="accent">Hean&nbsp;Loong&nbsp;Ong</span></h1>
-            <p class="subtitle">Staff Software Engineer — Embedded systems, high‑speed networking, and FPGA platforms.</p>
+            <p class="subtitle">Combining years of Embedded grit with the frontier of A.I</p>
+            <p class="subtitle">Staff Software Engineer specializing in embedded systems, high‑speed networking, and FPGA platforms.</p>
             <div class="cta-row">
-              <a class="btn primary" href="#projects">View Highlights</a>
-              <a class="btn" href="assets/HeanLoong-Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+              <a class="btn primary" href="#experience">View Experience</a>
+              <a class="btn" href="assets/OngHeanLoong-CV.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
               <a class="btn" href="#contact">Get in touch</a>
             </div>
             <ul class="socials">
@@ -49,72 +55,247 @@
               <img class="avatar-img" src="assets/img/heanloong.jpg" alt="Hean Loong Ong" loading="lazy" onerror="this.onerror=null; this.src='assets/img/profile-placeholder.svg'" />
             </div>
             <ul class="quick-facts">
-              <li>Staff Software Engineer</li>
-              <li>Embedded • Networking • FPGA</li>
-              <li>Penang, Malaysia</li>
+              <li>📍 Bayan Lepas, Penang, Malaysia</li>
+              <li>💼 Staff Software Engineer</li>
+              <li>🔧 Embedded • Networking • FPGA</li>
             </ul>
           </div>
         </div>
       </section>
 
-      <section id="about" class="section">
+      <section id="about" class="section alt">
         <div class="container">
           <h2>About</h2>
           <p>
-            Experienced Software Engineer with 20 years building embedded systems and high‑speed networking software across
-            FPGA platforms and Linux. I’ve led teams, shipped reference designs, and built validation frameworks with a focus
-            on reliability and performance.
+            A Software Engineer with a penchant for venturing into the unknown. With over 15 years of experience building embedded systems and high‑speed networking software across FPGA platforms and Linux, I've led teams, shipped reference designs, and built validation frameworks with a focus on reliability and performance.
           </p>
           <p>
-            Core skills: C, C++, Python, Embedded Linux, FreeRTOS, Zephyr, Intel DPDK, Industrial Ethernet (EtherCAT, PROFINET),
-            CI/CD, Yocto, Networking, Machine Learning validation.
+            My expertise spans from low-level embedded systems development on FreeRTOS and Zephyr to high-speed network packet processing with Intel DPDK, Industrial Ethernet protocols (EtherCAT, PROFINET), and cutting-edge AI/ML applications for embedded platforms.
           </p>
         </div>
       </section>
 
-      <section id="projects" class="section alt">
+      <section id="experience" class="section">
         <div class="container">
-          <h2>Highlights</h2>
-          <div class="cards">
-            <article class="card">
-              <h3>Industrial Ethernet on Lattice FPGAs</h3>
-              <p>Led development and enablement of EtherCAT and PROFINET applications on FreeRTOS/Zephyr for Lattice FPGAs; built CI/CD validation frameworks and led a team of three.</p>
-              <div class="card-actions">
-                <a class="btn small" href="https://www.latticesemi.com/" target="_blank" rel="noopener">Lattice</a>
+          <h2>Professional Experience</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-company">Lattice Semiconductor</div>
+              <div class="timeline-role">Customer Applications Software Engineer</div>
+              <div class="timeline-date">November 2023 - Present • Penang, Malaysia</div>
+              <div class="timeline-desc">
+                <ul>
+                  <li>Debug and solve issues related to Industrial Ethernet like EtherCAT and PROFINET</li>
+                  <li>Solve performance bottlenecks on small FPGA devices for Industrial Applications in FreeRTOS</li>
+                  <li>Developed Industrial Ethernet application on FreeRTOS stack based on soft IP FPGA</li>
+                  <li>Enabled Zephyr support for soft RISC-V core on FPGA</li>
+                </ul>
               </div>
-            </article>
-            <article class="card">
-              <h3>DNS Security Packet Inspection (10G)</h3>
-              <p>Tech lead for packet inspection engine at Infoblox. Integrated Intel DPDK with a packet engine, implemented HTTP/2 backend for DNS security, and built Python rule parsing on Linux.</p>
-              <div class="card-actions">
-                <a class="btn small" href="https://www.infoblox.com/" target="_blank" rel="noopener">Infoblox</a>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-company">Infoblox</div>
+              <div class="timeline-role">Staff Software Engineer</div>
+              <div class="timeline-date">July 2020 - November 2023 • Malaysia</div>
+              <div class="timeline-desc">
+                <ul>
+                  <li>Debugging DNS/Ethernet issues on Linux, including OS performance bottlenecks and Ethernet packet corruption</li>
+                  <li>Developed cloud-based DNS applications to inspect malicious network packets</li>
+                  <li>Developed backend security service running HTTP/2.0</li>
+                  <li>Developed high-speed network packet processing solutions</li>
+                </ul>
               </div>
-            </article>
-            <article class="card">
-              <h3>Intel SoC FPGA Golden Reference Design</h3>
-              <p>Strategized and delivered reference designs for Stratix 10, Arria 10, and Agilex; enablement on Yocto Linux, DisplayPort reference designs, and CI/CD DevOps frameworks.</p>
-              <div class="card-actions">
-                <a class="btn small" href="https://www.intel.com/" target="_blank" rel="noopener">Intel</a>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-company">Intel Corporation</div>
+              <div class="timeline-role">Senior Embedded Software Engineer</div>
+              <div class="timeline-date">September 2016 - June 2020 • Penang, Malaysia</div>
+              <div class="timeline-desc">
+                <ul>
+                  <li>Debugging Linux OS issues related to FPGA drivers (esp. Ethernet and Display Port)</li>
+                  <li>Debug and solve Yocto build frameworks issues including working on packages with security flaws</li>
+                  <li>Maintained Nightly Linux kernel and Intel FPGA Yocto builds and version upgrades</li>
+                  <li>Maintainer of Intel FPGA Yocto SDL packages</li>
+                  <li>Maintained internal Intel FPGA ARM SoC drivers for Yocto (Frame Buffer, GPIO, I2C, SPI, Ethernet)</li>
+                  <li>Developed Regression test suites for Intel FPGA ARM SoC Yocto</li>
+                </ul>
               </div>
-            </article>
-            <article class="card">
-              <h3>DDoS Mitigation and IPv6 BGP</h3>
-              <p>Designed DDoS mitigation software for 10G platforms, DNS inspection on bare‑metal and virtualized platforms, and ported Zebra IPv6 BGP features.</p>
-              <div class="card-actions">
-                <a class="btn small" href="https://github.com/loongx2" target="_blank" rel="noopener">GitHub</a>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-company">Infoblox</div>
+              <div class="timeline-role">Senior Software Engineer</div>
+              <div class="timeline-date">March 2015 - July 2016</div>
+              <div class="timeline-desc">
+                <ul>
+                  <li>Debug and solve embedded software issues related to Linux based PCIe Network Accelerator</li>
+                  <li>Developing DNS DDoS mitigation applications on Linux platforms (virtual and physical machines)</li>
+                  <li>Coding environment based on C and Python</li>
+                  <li>Adopted Agile development approach</li>
+                </ul>
               </div>
-            </article>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-company">Motorola Solutions</div>
+              <div class="timeline-role">Senior Software Engineer</div>
+              <div class="timeline-date">October 2008 - February 2015 • Penang, Malaysia</div>
+              <div class="timeline-desc">
+                <ul>
+                  <li>Develop digital professional radio software, mainly concentrating on power management and accessory interface issues</li>
+                  <li>Coding environment in C and C++</li>
+                  <li>Worked under development Agile environment</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-company">Universiti Sains Malaysia</div>
+              <div class="timeline-role">Researcher</div>
+              <div class="timeline-date">May 2005 - April 2008 • Penang, Malaysia</div>
+              <div class="timeline-desc">
+                <ul>
+                  <li>Administering IPv6 networks for MYREN group</li>
+                  <li>Work on setting up IPv6 network emulators for training</li>
+                  <li>Published research on Wireless Networks</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="contact" class="section">
+      <section id="skills" class="section alt">
+        <div class="container">
+          <h2>Skills & Expertise</h2>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h3>Top Skills</h3>
+              <div class="skill-badges">
+                <span class="skill-badge top">C++</span>
+                <span class="skill-badge top">Python</span>
+                <span class="skill-badge top">C</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3>Embedded Systems</h3>
+              <div class="skill-badges">
+                <span class="skill-badge">FreeRTOS</span>
+                <span class="skill-badge">Zephyr</span>
+                <span class="skill-badge">Yocto</span>
+                <span class="skill-badge">FPGA</span>
+                <span class="skill-badge">ARM SoC</span>
+                <span class="skill-badge">RISC-V</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3>Networking</h3>
+              <div class="skill-badges">
+                <span class="skill-badge">EtherCAT</span>
+                <span class="skill-badge">PROFINET</span>
+                <span class="skill-badge">Intel DPDK</span>
+                <span class="skill-badge">DNS Security</span>
+                <span class="skill-badge">IPv6</span>
+                <span class="skill-badge">BGP</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3>Tools & Platforms</h3>
+              <div class="skill-badges">
+                <span class="skill-badge">Linux</span>
+                <span class="skill-badge">CI/CD</span>
+                <span class="skill-badge">Docker</span>
+                <span class="skill-badge">Git</span>
+                <span class="skill-badge">HTTP/2.0</span>
+                <span class="skill-badge">PCIe</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3>AI/ML</h3>
+              <div class="skill-badges">
+                <span class="skill-badge">TensorFlow</span>
+                <span class="skill-badge">PyTorch</span>
+                <span class="skill-badge">Machine Learning</span>
+                <span class="skill-badge">Neural Networks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <h2>Education</h2>
+          <div class="edu-grid">
+            <div class="edu-card">
+              <div class="edu-title">Master of Science in Computer Science</div>
+              <div class="edu-school">Universiti Sains Malaysia</div>
+              <div class="edu-years">2005 - 2008 • Computer Networks</div>
+            </div>
+
+            <div class="edu-card">
+              <div class="edu-title">Bachelor of Computer Science</div>
+              <div class="edu-school">Universiti Tunku Abdul Rahman</div>
+              <div class="edu-years">2003 - 2005</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="section alt">
+        <div class="container">
+          <h2>Certifications</h2>
+          <ul class="cert-list">
+            <li class="cert-item">
+              <div class="cert-title">Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning</div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-title">Sequences, Time Series and Prediction</div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-title">Convolutional Neural Networks in TensorFlow</div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-title">AI Workshop: Build a Neural Network with PyTorch Lightning</div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-title">Hands-On PyTorch Machine Learning</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <div class="container">
+          <h2>Publications</h2>
+          <ul class="pub-list">
+            <li class="pub-item">
+              <div class="pub-title">Routing with a density-based probabilistic algorithm for mobile ad-hoc networks</div>
+            </li>
+            <li class="pub-item">
+              <div class="pub-title">Node Density Effects on Reactive Routing Protocols for Mobile Ad Hoc Wireless Networks</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section alt">
         <div class="container">
           <h2>Contact</h2>
           <p>Want to collaborate or say hi? The fastest way to reach me is via email.</p>
           <p>
             <a class="btn primary" href="mailto:loongx2@gmail.com">loongx2@gmail.com</a>
           </p>
+          <ul class="socials" style="justify-content:center; margin-top:24px">
+            <li><a href="https://github.com/loongx2" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/hean-loong-ong-94b083a6/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://loongx2.github.io/heanloong.github.io/" target="_blank" rel="noopener">Portfolio Website</a></li>
+          </ul>
         </div>
       </section>
     </main>
@@ -122,11 +303,11 @@
     <footer class="site-footer">
       <div class="container">
         <p>
-          © <span id="year"></span> Hean Loong. Built with plain HTML/CSS/JS. Hosted on GitHub Pages.
+          © <span id="year"></span> Hean Loong Ong. Built with HTML/CSS/JS. Hosted on GitHub Pages.
         </p>
       </div>
     </footer>
 
     <script src="assets/js/main.js" defer></script>
   </body>
-  </html>
+</html>
